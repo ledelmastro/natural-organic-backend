@@ -349,7 +349,7 @@ services:
     image: postgres:15-alpine
     environment:
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: senha123
+      POSTGRES_PASSWORD: mvp_puc_2026
       POSTGRES_DB: natural_organic_db
     ports:
       - "5432:5432"
