@@ -44,7 +44,7 @@ git clone https://github.com/ledelmastro/natural-organic-backend.git
 cd natural-organic-backend
 
 # Configurar variáveis de ambiente
-Copie o arquivo de exemplo:
+# Copie o arquivo de exemplo:
 cp .env.example .env
 
 # ⚠️ E configure:
