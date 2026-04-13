@@ -382,4 +382,4 @@ docker-compose up --build
 
 ## 📊 Diagrama de Arquitetura
 
-  ![Diagrama de Arquitetura](docs/image.png)!
+  ![Diagrama de Arquitetura](docs/image.png)
