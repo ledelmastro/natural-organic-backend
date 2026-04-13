@@ -66,7 +66,7 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 
 # Configurar variáveis de ambiente
-cp .env.example .env
+cp .env .env
 
 # Executar a aplicação
 uvicorn main:app --reload --port 8000
