@@ -43,9 +43,7 @@ API RESTful desenvolvida em Python com FastAPI para gerenciar uma loja virtual d
 git clone https://github.com/ledelmastro/natural-organic-backend.git
 cd natural-organic-backend
 
-# Configure variáveis de ambiente
-cp .env.example .env
-# Edite .env com suas credenciais
+# Edite .env com suas credenciais ou utilize a disponível
 
 # Build e execute
 docker build -t natural-organic-api .
