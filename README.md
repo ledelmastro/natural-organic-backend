@@ -370,7 +370,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      DATABASE_URL: postgresql+psycopg2://admin:senha123@db:5432/natural_organic_db
+      DATABASE_URL: postgresql+psycopg2://admin:mvp_puc_2026@db:5432/natural_organic_db
     env_file:
       - .env
 
