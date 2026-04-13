@@ -78,7 +78,7 @@ uvicorn main:app --reload --port 8000
 ---
 
 ## 🗂️ Estrutura do Projeto
-
+```text
 natural-organic-backend/
 ├── app/                        # Lógica central da aplicação
 │   ├── routers/                # Divisão de rotas por funcionalidade
@@ -382,31 +382,4 @@ docker-compose up --build
 
 ## 📊 Diagrama de Arquitetura
 
-┌──────────────────────────────┐
-│         React SPA            │
-│         (Frontend)           │
-└──────────────┬───────────────┘
-               │
-     ┌─────────┴─────────┐
-     │                   │
-     ▼                   ▼
-┌──────────────┐   ┌──────────────┐
-│   FastAPI    │   │  WeatherAPI  │
-│  (Backend)   │   │  (Externo)   │
-└──────┬───────┘   └──────────────┘
-       │
-       ▼
-┌──────────────────────────────┐
-│         PostgreSQL           │
-│         (Database)           │
-└──────────────┬───────────────┘
-               │
-       ┌───────┴────────┐
-       │                │
-       ▼                ▼
-   ┌──────────┐     ┌────────────┐
-   │  ViaCEP  │     │  Geoapify  │
-   │(Endereço)│     │  (Rotas)   │
-   └──────────┘     └────────────┘
-
-  ![Diagrama de Arquitetura](\docs\image.png)!
+  ![Diagrama de Arquitetura](docs/image.png)!
