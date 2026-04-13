@@ -36,16 +36,21 @@ API RESTful desenvolvida em Python com FastAPI para gerenciar uma loja virtual d
 - Chaves de API:
   - Geoapify (https://www.geoapify.com/)
 
-### Opção 1: Com Docker (Recomendado)
+###  Opção 1: Com Docker Compose (Recomendado)
 
 ```bash
 # Clone o repositório
+git clone https://github.com/ledelmastro/natural-organic-frontend.git
+cd..
+
+# Clone o repositório
 git clone https://github.com/ledelmastro/natural-organic-backend.git
-cd natural-organic-backend
+cd natural-organic-frontend
 
 # Configurar variáveis de ambiente
 # Copie o arquivo de exemplo:
 cp .env.example .env
+
 
 # ⚠️ E configure:
 
@@ -53,14 +58,10 @@ GEOAPIFY_API_KEY
 VITE_WEATHER_API_KEY
 DATABASE_URL
 
-# ⚠️ É necessário editar o arquivo `.env` e inserir suas próprias chaves de API antes de executar o projeto.
+# Build e execute o container
+docker-compose up -d --build
 
-# Build e execute
-docker build -t natural-organic-api .
-docker run -p 8000:8000 --env-file .env natural-organic-api
-
-# Acesse a documentação
-# http://localhost:8000/docs
+# Acesse http://localhost:3000
 ```
 
 ### Opção 2: Desenvolvimento Local
