@@ -7,7 +7,7 @@ API RESTful desenvolvida em Python com FastAPI para gerenciar uma loja virtual d
 ## Vídeo de Apresentação do Projeto Final | Disciplina: Back-end Avançado | PUC-Rio
 
 <a href="https://www.youtube.com/watch?v=cqKe0fkphVE" target="_blank">
-  <img src="https://img.youtube.com/vi/cqKe0fkphVE/0.jpg" alt="Assista ao vídeo" width="500">
+  <img src="https://img.youtube.com/vi/cqKe0fkphVE/0.jpg" alt="Assista ao vídeo" width="400">
 </a>
 
 ### ✨ Funcionalidades
