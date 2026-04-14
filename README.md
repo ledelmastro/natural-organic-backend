@@ -4,6 +4,10 @@
 
 API RESTful desenvolvida em Python com FastAPI para gerenciar uma loja virtual de produtos orgânicos. Sistema completo de e-commerce com integração a APIs externas de geolocalização e endereços.
 
+## Vídeo de Apresentação do Projeto Final | Disciplina: Back-end Avançado | PUC-Rio
+
+[![Assista ao vídeo](https://img.youtube.com/vi/cqKe0fkphVE/0.jpg)](https://www.youtube.com/watch?v=cqKe0fkphVE)
+
 ### ✨ Funcionalidades
 
 - 🛒 **Carrinho de Compras**: CRUD completo
